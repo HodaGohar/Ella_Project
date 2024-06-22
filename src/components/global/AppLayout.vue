@@ -1,8 +1,8 @@
 <template>
   <div class="layout">
-    <v-layout>
+    <v-layout class="position-relative">
       <CartDrawer />
-      <v-main>
+      <v-main style="padding-top: 98px;">
         <slot></slot>
       </v-main>
       <AppNav />
